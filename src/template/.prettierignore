@@ -1,0 +1,12 @@
+**/*.png
+package.json
+yarn.lock
+package-lock.json
+yarn-error.log
+.gitignore
+.prettierignore
+.DS_Store
+public/
+src/template/template.hbs
+favicon.ico
+.npmrc

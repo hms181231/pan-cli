@@ -1,0 +1,185 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.phecda-form {
+  .ant-form-item {
+    display: flex;
+  }
+
+  .ant-form-item-control-wrapper {
+    flex: 1;
+  }
+}
+
+::-moz-placeholder {
+  color: #a3afb7;
+}
+::-webkit-input-placeholder {
+  color: #a3afb7;
+}
+:-ms-input-placeholder {
+  color: #a3afb7;
+}
+
+.breadcrumb {
+  background: #fff;
+  padding: 16px 32px;
+}
+
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.txt-right {
+  text-align: right;
+}
+.task-item-header {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.task-item-row {
+  display: flex;
+  margin-bottom: 10px;
+
+  .task-item-formItem {
+    display: flex;
+    margin: 0;
+
+    .task-item-content {
+      line-height: inherit;
+    }
+
+    .ant-form-item-label {
+      width: 100px;
+    }
+
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+}
+.task-item-label {
+  display: block;
+  width: 100px;
+  line-height: 30px;
+}
+.task-item-content {
+  line-height: 30px;
+  text-align: justify;
+}
+.task-footer {
+  margin-top: 50px;
+  text-align: center;
+}
+.task-item-row {
+  .helper {
+    width: 50%;
+    padding-right: 10px;
+  }
+  .select-result {
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+    flex: 1;
+  }
+  .select-result-header {
+    a {
+      float: right;
+    }
+    margin-bottom: 20px;
+  }
+  .selected-list-item {
+    padding: 20px;
+    position: relative;
+    font-size: 16px;
+    .anticon {
+      float: right;
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+.table-operation-button {
+  margin-right: 15px;
+}
+
+.word-break-all {
+  word-break: break-all;
+}
+
+.default-column-min-width {
+  min-width: 100px;
+  word-break: break-all;
+}
+
+.default-column-max-width {
+  max-width: 332px;
+  word-break: break-all;
+}
+
+.placeholder {
+  position: relative;
+  padding: 8px 16px;
+  background: #fff;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.loand-files {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 150px;
+  white-space: nowrap;
+}
+
+.loand-text-ellipsis {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  &-content {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+.phecda {
+  &-wait {
+    color: #f5a623;
+  }
+
+  &-progress {
+    color: #3d86fa;
+  }
+
+  &-succeed {
+    color: #57c522;
+  }
+
+  &-failure {
+    color: #d0021b;
+  }
+
+  &-invalid {
+    color: #9b9b9b;
+  }
+
+  &-digitUppercase {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  &-strong {
+    color: #ff0000;
+  }
+}

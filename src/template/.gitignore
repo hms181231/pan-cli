@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+jspm_packages/
+.DS_Store
+npm-debug.log
+*.bundle.js
+*.bundle.js.map
+.idea
+yarn.lock
+public/
+package-lock.json
+logs/
+.vscode/
